@@ -11,7 +11,7 @@ export default function Consultation() {
                   <h2 className="font-semibold text-sm text-gray-400">
                     REQUEST FOR YOUR
                   </h2>
-                  <h1 className="font-bold text-3xl mt-2">Consultation</h1>
+                  <h1 className="font-bold text-2xl mt-2">Consultation</h1>
                 </div>
                 <form>
                   <div className="pt-4 flex flex-col gap-y-6">
@@ -56,10 +56,10 @@ export default function Consultation() {
                 </form>
               </div>
             </div>
-            <div className="w-1/3 px-2">
-              <h2 className="font-semibold text-md">Welcome to Aesthetic</h2>
-              <h1 className="font-bold text-4xl mt-2">
-                Find Best Doctors With <span>AESTHETIC</span>
+            <div className="w-1/3 px-4">
+              <h2 className="font-semibold text-md text-gray-500">Welcome to Aesthetic</h2>
+              <h1 className="font-bold text-3xl mt-2">
+                Find Best Doctors <br/> With <span className="text-blue-400">AESTHETIC</span>
               </h1>
               <p className="text-sm mt-3">
                 30 Years of experience in Cosmetic Surgery.Lorem ipsum dolor sit
