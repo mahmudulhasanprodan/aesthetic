@@ -2,6 +2,7 @@ import Container from "./Container"
 import Image from 'next/image'
 import DoctorOne from '@/app/public/doctorOne.jpg'
 import { FaSquareFacebook } from "react-icons/fa6";
+import picone from "@/app/public/picone.jpg"
 
 export default function Doctors() {
      return (
@@ -44,6 +45,9 @@ export default function Doctors() {
                  
                </div>
              </div>
+              <div>
+                <Image  src={picone} alt={picone}/>
+              </div>
            </div>
          </Container>
        </div>
