@@ -6,6 +6,7 @@ import Doctors from "@/app/headercomponents/Doctors";
 import FooterTop from "@/app/headercomponents/FooterTop";
 import FooterBottom from "@/app/headercomponents/FooterBottom";
 
+
 export default function Home() {
   return (
     <div>
