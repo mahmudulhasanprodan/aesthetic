@@ -1,6 +1,10 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/app/headercomponents/Header";
+import FooterTop from "./headercomponents/FooterTop";
+import FooterBottom from "./headercomponents/FooterBottom";
+import { Suspense } from 'react'
+import Loading from "./loading";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -16,8 +20,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${montserrat.className}  antialiased`}>
+        <Suspense fallback={<Loading />}>
        <Header />
         {children}
+        <FooterTop />
+        <FooterBottom />
+        </Suspense>
       </body>
     </html>
   );
